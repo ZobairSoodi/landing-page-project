@@ -70,10 +70,11 @@ nav ul{
 header{
     position: relative;
     height: 300px;
+    background-image: url(../images/header_image.jfif);
+    background-size: cover;
 }
-header img{
-    width: 100%;
-}
+
+
 header h1{
     font-size: 20px;
     position: absolute;
@@ -103,3 +104,18 @@ header h4{
     font-size: 15px;
 
     }
+
+.features{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.features div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features img{
+    width: 100%;
+}
