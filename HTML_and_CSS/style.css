@@ -1,0 +1,40 @@
+
+.titl1{
+    color: #909580;
+}
+header{
+    position: relative;
+    height: 300px;
+}
+header img{
+    width: 100%;
+}
+header h1{
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 1%;
+    text-align: center;
+}
+header h4{
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    top: 100px;
+    left: 1%;
+    text-align: center;
+    width: 300px;
+}
+.button1{
+    position: absolute;
+    top: 180px;
+    left: 10%;
+    color: #000000;
+    background-color: #A9E8FE;
+    border-style: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+
+    }
