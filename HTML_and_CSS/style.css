@@ -146,3 +146,77 @@ header h4{
 .features img{
     width: 100%;
 }
+h1{
+    color: #2CC8FF;
+    text-align: center;
+}
+.comment1{
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-top: 10px;
+    background-color: #F4E9FB;
+    border-color: #DDCBE8;
+}
+.comment2{
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-top: 10px;
+    background-color: #F4E9FB;
+    border-color: #DDCBE8;
+}
+.image1{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-image: url(../male_profile_pic.png);
+    background-size: contain;
+}
+.image2{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-image: url(../female_profile_pic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flex_comment{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment2 h4{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.comment1 h4{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+footer{background-color: #DDCBE8;}
+footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer i {
+    text-align: left;
+}
+
+ footer a:hover{
+    color:#6eb9df;
+   
+}
+
+   
+
+
+    
