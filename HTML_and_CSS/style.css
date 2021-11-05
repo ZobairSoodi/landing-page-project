@@ -6,7 +6,6 @@ body{
 nav{
     height: 230px;
     background-color: #DDCBE8;
-    border-bottom-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +82,7 @@ header{
     background-position: center;
     padding: 20px;
     border-bottom-style: solid;
-
+    border-top-style: solid;
 }
 .header_left{
     text-align: center;
@@ -123,20 +122,28 @@ header h4{
     width: 300px;
 }
 .button1{
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
     color: #000000;
-    background-color: #A9E8FE;
-    border-style: solid;
+    background-color: #69d6fd;
+    border-style: none;
     border-radius: 5px;
     margin-top: 20px;
-    width: 180px;
+    width: max-content;
     height: 50px;
     font-size: 15px;
 
-    }
+}
+.button1:hover{
+    background-color: #7ab6cc;
+    cursor: pointer;
+}
     
 .features{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .features div{
     display: flex;
@@ -252,15 +259,26 @@ footer i {
 }
 #form_txt{
     border: none;
+    height: 40px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 #form_btn{
+    font-size: large;
     border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 20px 0 20px;
     background-color: rgb(166, 101, 226);
 
 }
 #form_btn:hover{
     cursor: pointer;
+    background-color: #786188;
+    color: rgb(20, 19, 19);
 }
+
 
 @media (min-width: 1000px){
     nav{
@@ -268,7 +286,7 @@ footer i {
         box-sizing: border-box;
         padding-left: 30px;
         width: 100%;
-        position: fixed;
+        position: sticky;
         top: 0;
     }
     nav img{
@@ -316,8 +334,20 @@ footer i {
         width: 45%;
         margin-left: 3%;
         border-style: solid;
+        border-radius: 10px;
     }
     .comments{
         display: flex;
+    }
+    .form_div form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_div h3{
+        text-align: center;
+        margin: 0;
+        margin-right: 50px;
     }
 }
