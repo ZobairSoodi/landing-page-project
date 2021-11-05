@@ -85,6 +85,9 @@ header{
     border-bottom-style: solid;
 
 }
+.header_left{
+    text-align: center;
+}
 h1 span{
     /*background: rgba(235, 230, 230, 0.3);*/
     letter-spacing: -0.5px;
@@ -192,23 +195,34 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-.comment2 h4{
-    margin-top: 30px;
+.comment2 p{
     margin-left: 50px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.comment1 h4{
-    margin-top: 30px;
+.comment1 p{
     margin-left: 50px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-footer{background-color: #DDCBE8;}
+footer{
+    background-color: #DDCBE8;
+    display: inline-block;
+    width: 100%;
+}
 footer li{
     list-style: none;
     display: inline-block;
-    padding: 10px 15px;
 }
 footer a{
     text-decoration: none;
+    margin-left: 10px;
     color: black;
 }
 footer i {
@@ -227,16 +241,83 @@ footer i {
 .form_div {
     background-color: #d0bcdd;
     border: none;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
     border-radius: 2px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form_txt{
+    border: none;
 }
 #form_btn{
     border: none;
     background-color: rgb(166, 101, 226);
+
 }
 #form_btn:hover{
     cursor: pointer;
-    color: #c196dd;
 }
 
+@media (min-width: 1000px){
+    nav{
+        height: 70px;
+        box-sizing: border-box;
+        padding-left: 30px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    nav img{
+        width: auto;
+        height: 60px;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
+    .nav_main{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_list ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+    }
+    .nav_list li{
+        margin-left: 40px;
+        width: 100px;
+    }
+    .nav_buttons{
+    }
+    .features{
+        flex-direction: row;
+        margin-top: 60px;
+    }
+    .features div{
+        width: 33%;
+        border-bottom-style: none;
+        border-left-style: solid;
+        border-width: 1.5px;
+    }
+    .features img{
+        width: 350px;
+        height: 250px;
+    }
+    header{
+        height: 400px;
+    }
+    .comment1, .comment2{
+        width: 45%;
+        margin-left: 3%;
+        border-style: solid;
+    }
+    .comments{
+        display: flex;
+    }
+}
