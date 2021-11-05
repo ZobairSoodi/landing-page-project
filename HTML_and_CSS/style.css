@@ -1,47 +1,74 @@
-<<<<<<< Updated upstream
-
-.titl1{
-    color: #909580;
-}
-header{
-    position: relative;
-    height: 300px;
-}
-header img{
-    width: 100%;
-}
-header h1{
-    font-size: 20px;
-    position: absolute;
-    top: 50px;
-    left: 1%;
+h1{
+    color: #2CC8FF;
     text-align: center;
 }
-header h4{
-    font-size: 15px;
-    font-weight: lighter;
-    position: absolute;
-    top: 100px;
-    left: 1%;
-    text-align: center;
-    width: 300px;
-}
-.button1{
-    position: absolute;
-    top: 180px;
-    left: 10%;
-    color: #000000;
-    background-color: #A9E8FE;
-    border-style: none;
-    border-radius: 5px;
-    width: 180px;
-    height: 50px;
-    font-size: 15px;
-
-    }
-=======
-div{
+.comment1{
+    display: flex;
     border-top-style: solid;
     border-bottom-style: solid;
+    margin-top: 10px;
+    background-color: #F4E9FB;
+    border-color: #DDCBE8;
 }
->>>>>>> Stashed changes
+.comment2{
+    display: flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-top: 10px;
+    background-color: #F4E9FB;
+    border-color: #DDCBE8;
+}
+.image1{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-image: url(../male_profile_pic.png);
+    background-size: contain;
+}
+.image2{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-image: url(../female_profile_pic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flex_comment{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment2 h4{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.comment1 h4{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+footer{background-color: #DDCBE8;}
+footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+i {
+    text-align: left;
+}
+
+ a:hover{
+    color:#6eb9df;
+   
+}
+
+   
+
+
+    
