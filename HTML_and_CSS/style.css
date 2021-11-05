@@ -6,9 +6,11 @@ body{
 nav{
     height: 230px;
     background-color: #DDCBE8;
+    border-bottom-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .navbar{
     display: flex;
@@ -80,6 +82,8 @@ header{
     background-size: cover;
     background-position: center;
     padding: 20px;
+    border-bottom-style: solid;
+
 }
 h1 span{
     /*background: rgba(235, 230, 230, 0.3);*/
@@ -229,6 +233,10 @@ footer i {
 }
 #form_btn{
     border: none;
-    padding: 5px;
-    border-radius: 2px;
+    background-color: rgb(166, 101, 226);
 }
+#form_btn:hover{
+    cursor: pointer;
+    color: #c196dd;
+}
+
