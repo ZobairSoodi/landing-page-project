@@ -431,7 +431,7 @@ footer i {
     #form_btn{
         margin-top: 10px;
     }
-    footer a{
-        margin-left: 0;
+    footer ul{
+        padding-left: 0;
     }
 }
