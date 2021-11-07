@@ -195,8 +195,8 @@ header h4{
     font-weight: 600;
 }
 .comment2 p{
-    margin-left: 50px;
     width: 60%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,8 +204,8 @@ header h4{
     text-align: center;
 }
 .comment1 p{
-    margin-left: 50px;
     width: 60%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +223,6 @@ header h4{
     margin-bottom: 40px;
     padding: 10px;
     border-radius: 2px;
-    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -399,6 +398,9 @@ footer i {
     .comments{
         display: flex;
     }
+    .form_div{
+        height: 100px;
+    }
     .form_div form{
         display: flex;
         flex-direction: row;
@@ -412,5 +414,21 @@ footer i {
     }
     .header_left h1 span{
         font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .nav_buttons{
+        display: none;
+    }
+    nav img{
+        margin-right: 0;
+    }
+    .form_input{
+        display: flex;
+        flex-direction: column;
+    }
+    #form_btn{
+        margin-top: 10px;
     }
 }
