@@ -434,4 +434,10 @@ footer i {
     footer ul{
         padding-left: 0;
     }
+    header h1{
+        font-size: larger;
+    }
+    header h4{
+        font-size: medium;
+    }
 }
