@@ -169,7 +169,7 @@ header h4{
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    background-image: url(male_profile_pic.png);
+    background-image: url(images/male_profile_pic.PNG);
     background-size: contain;
     box-shadow: 2px 2px 5px black;
 }
@@ -177,7 +177,7 @@ header h4{
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    background-image: url(female_profile_pic.png);
+    background-image: url(images/female_profile_pic.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
